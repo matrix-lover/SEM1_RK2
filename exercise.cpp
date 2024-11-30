@@ -30,7 +30,7 @@ int main()
     int** n_matrix = new int*[A_columns]; // новая матрица
     for(int i = 0; i < A_columns; ++i)
     {
-        n_matrix[i] = new int[B_lines](); // инициализируем нулем каждый элемент с помощью ()
+        n_matrix[i] = new int[B_lines](); // инициализируем нулем каждый элемент нулем с помощью ()
     }
     
     cout << "матрица A: " << '\n';
