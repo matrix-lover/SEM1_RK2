@@ -70,5 +70,8 @@ int main()
         }
         cout << '\n';
     }
+    delete[] A;
+    delete[] B;
+    delete[] n_matrix;
     return 0;
 }
