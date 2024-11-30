@@ -68,7 +68,7 @@ int main()
         }
     }
     
-    for(int i = 0; i < A_columns; ++i) // ввод матрицы B
+    for(int i = 0; i < A_columns; ++i) // вывод новой получившейся матрицы
     {
         for(int j = 0; j < B_lines; ++j)
         {
